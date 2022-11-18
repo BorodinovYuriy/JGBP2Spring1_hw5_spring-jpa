@@ -5,11 +5,7 @@ import org.springframework.stereotype.Service;
 import ru.gb.buv.springjpa.dao.ProductDao;
 import ru.gb.buv.springjpa.entity.Product;
 
-import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
-
-
 @Service
 public class ProductService {
     private final ProductDao productDao;
@@ -17,7 +13,6 @@ public class ProductService {
     public ProductService(ProductDao productDao) {
         this.productDao = productDao;
     }
-
 
     public List<Product> getAllProducts() {
         return productDao.findAll();

@@ -1,5 +1,4 @@
 package ru.gb.buv.springjpa.controller;
-
 import org.springframework.web.bind.annotation.*;
 import ru.gb.buv.springjpa.entity.Product;
 import ru.gb.buv.springjpa.service.ProductService;

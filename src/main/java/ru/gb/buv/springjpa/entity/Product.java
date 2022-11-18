@@ -1,6 +1,5 @@
 package ru.gb.buv.springjpa.entity;
 
-
 import javax.persistence.*;
 import java.math.BigDecimal;
 
