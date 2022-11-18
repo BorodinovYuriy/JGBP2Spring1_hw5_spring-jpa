@@ -1,0 +1,7 @@
+hibernate.connection.driver_class=org.postgresql.Driver
+hibernate.connection.url=jdbs:postgresql://localhost:5432/lesson5?currentSchema=schema_lesson5
+hibernate.connection.username=aditone
+hibernate.connection.password=2378
+hibernate.show_sql=true
+hibernate.dialect=org.hibernate.dialect.PostgreSQL95Dialect
+hibernate.current_session_context_class=thread
